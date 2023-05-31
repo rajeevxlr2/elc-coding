@@ -1,0 +1,64 @@
+/**
+ * This is the central home page
+ *
+ */
+section#home {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0; left: 0;
+    padding: 100px 20px 0;
+    background-image: url('/img/header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    div.content {
+        max-width: $siteWidth;
+        margin: 0 auto;
+        color: #FFF;
+    }
+
+    .products-list {
+        background: rgba(255,255,255,0.8);
+    }
+
+    .product-container {
+        display: inline-block;
+        color: #000;
+        width: 300px;
+        .thumbnail {
+            margin: 0 auto;
+            text-align: center;
+            img {
+                width: 110px;
+                height: 230px;
+            }
+        }
+        .details {
+            .price {
+                text-align: center;
+                font-weight: bold;
+                padding-top: 10px;
+            }
+            .product-title {
+                font-family: ano-bold_regular,Helvetica,Arial,sans-serif;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                letter-spacing: .3px;
+                text-align: center;
+                padding-top: 30px;
+            }
+            .product-desc {
+                font-family: ano_regular,Helvetica,Arial,sans-serif;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                letter-spacing: .3px;
+                text-transform: unset;
+                padding: 20px;
+            }
+        }
+    }
+}
